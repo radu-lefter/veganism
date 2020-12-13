@@ -212,6 +212,11 @@ h2, h3{
   text-align: center;
 }
 
+.recipe ul{
+  margin: 0;
+  padding: 0;
+}
+
 .instructions{
   flex: 100%;
   text-align: center;
@@ -227,21 +232,12 @@ h2, h3{
   padding-bottom: 3px;
 }
 
-.recipe hr{
-  border: none;
-  height: 2px;
-  background-color: #3691c9;
-}
-
 
 .green{
   color: #319c4f !important;
   font-weight: bold;
 }
 
-.strike{
-  text-decoration: line-through;
-}
 
 .recipe_photo{
   width: 300px;
@@ -312,6 +308,38 @@ label{
     float: none;
     display: block;
     width: 100%;
+    text-align: center;
+  }
+
+  h1, h2, h3{
+    text-align: center;
+  }
+  .veg-img{
+    display: none;
+  }
+
+  .recipe-wrap{
+    box-shadow: none;
+  }
+
+  .recipe li{
+    list-style-type: none;
+  }
+
+  ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+  }
+
+  #calc-container{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #calc-container label, li{
     text-align: left;
   }
+
 }
