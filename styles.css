@@ -6,7 +6,13 @@ White:	#ffffff (255,255,255) */
 
 
 
-* {box-sizing:border-box}
+* {
+  box-sizing:border-box
+}
+
+p, li, label{
+  font-family: Georgia, sans-serif;
+}
 
 .header {
     padding: 80px; 
@@ -120,6 +126,7 @@ nav a:nth-child(even):hover {
 #home-quote{
 height: 100%;
 width: 100%;
+padding: 8px;
 display: flex;
 position: fixed;
 align-items: center;
@@ -187,9 +194,9 @@ z-index: -1;
 
 /* Veganism */
 
-h1, h2, h3 {
+h1, h2, h3, a {
   color: #60ce80;
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif;
 }
 
 .veg-img{
@@ -236,6 +243,7 @@ h2, h3{
 .gifs{
   width: 250px;
   height: 250px;
+  margin: 5px;
 }
 
 /*Recipes*/
@@ -356,7 +364,9 @@ label{
     text-align: center;
   }
   .veg-img{
-    display: none;
+    width: 100%;
+    height: auto;
+    float: none;
   }
 
   .recipe-wrap{
@@ -389,6 +399,11 @@ label{
 
   input[type=text], input[type=tel], input[type=email],  textarea {
     width: 300px;
+  }
+
+  #main-sitemap h3{
+    margin-left:0;
+
   }
 
 }
