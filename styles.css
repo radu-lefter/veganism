@@ -32,6 +32,7 @@ footer {
 footer a{
   text-decoration: none;
   padding: 12px;
+  margin: 5px;
   font-size: 15px;
 }
 
@@ -264,6 +265,7 @@ h2, h3{
 .recipe ul{
   margin: 0;
   padding: 0;
+  list-style-position:inside;
 }
 
 .instructions{
@@ -271,10 +273,15 @@ h2, h3{
   text-align: center;
 }
 
+.instructions li{
+  list-style-position:inside;
+}
+
 .recipe li{
   list-style-type: circle;
   border-bottom: 3px solid #3691c9;
   padding: 3px;
+  list-style-position:inside;
 }
 
 .instructions li{
@@ -371,6 +378,15 @@ label{
 
   .recipe-wrap{
     box-shadow: none;
+  }
+
+  .recipe{
+    flex: 100%;
+    
+  }
+  .recipe_photo{
+    width: 100%;
+    height: auto;
   }
 
   .recipe li{
